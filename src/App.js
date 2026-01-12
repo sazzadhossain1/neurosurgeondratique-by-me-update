@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse } from "@fortawesome/free-regular-svg-icons";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo iure eos
+        beatae iste voluptas cum ex corporis nesciunt excepturi quos.
+      </h1>
+      <FontAwesomeIcon icon={faHouse} />
     </div>
   );
 }
