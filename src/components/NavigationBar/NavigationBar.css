@@ -1,0 +1,60 @@
+.navigation_first_section_div {
+  background-color: rgb(49, 49, 49);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.navigation_first_section_flex_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+  width: 75%;
+  margin: auto;
+}
+
+.faFacebook {
+  margin-right: 10px;
+}
+.faYoutube {
+  margin-right: 10px;
+}
+
+.faFacebook:hover {
+  color: #0767a7;
+  cursor: pointer;
+}
+.faYoutube:hover {
+  color: red;
+  cursor: pointer;
+}
+.faTwitter:hover {
+  color: #0767a7;
+  cursor: pointer;
+}
+
+/* ---------------- Nav second section --------------- */
+.nav_second_flex_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+.navigation_loto {
+  width: 15%;
+}
+.nav_ul_div ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.nav_ul_div ul li {
+  list-style: none;
+}
+.nav_make_btn {
+  border: none;
+  background-color: #0767a7;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+}
