@@ -2,15 +2,30 @@ import logo from "./logo.svg";
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-regular-svg-icons";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Main from "./LayOut/Main";
+import Home from "./components/Home/Home";
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main></Main>,
+      children: [
+        {
+          path: "/",
+          element: <Home></Home>,
+        },
+        {
+          path: "/home",
+          element: <Home></Home>,
+        },
+      ],
+    },
+  ]);
   return (
     <div className="App">
-      <h1>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo iure eos
-        beatae iste voluptas cum ex corporis nesciunt excepturi quos.
-      </h1>
-      <FontAwesomeIcon icon={faHouse} />
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
