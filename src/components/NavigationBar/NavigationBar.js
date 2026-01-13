@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 const NavigationBar = () => {
   return (
     <div>
-      <div>
+      <div className="navigation_parent_div">
         <div className="navigation_first_section_div">
           <div className="navigation_first_section_flex_div">
             <div>
@@ -34,23 +34,25 @@ const NavigationBar = () => {
           </div>
         </div>
         {/* ------------NAV SECTION START------------*/}
-        <div className="nav_second_flex_div">
-          <img className="navigation_loto" src={logo} alt="" />
-          <div className="nav_ul_div">
-            <ul>
-              <li>Home</li>
-              <li>Pages</li>
-              <li>About Us</li>
-              <li>Our Experts</li>
-              <li>Service</li>
-              <li>Blog</li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
-          <div>
-            <Link>
-              <button className="nav_make_btn">MAKE AN APPOINMENT</button>
-            </Link>
+        <div className="nav_second_parent_div">
+          <div className="nav_second_flex_div">
+            <img className="navigation_loto" src={logo} alt="" />
+            <div className="nav_ul_div">
+              <ul>
+                <li>Home</li>
+                <li>Pages</li>
+                <li>About Us</li>
+                <li>Our Experts</li>
+                <li>Service</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+            <div>
+              <Link>
+                <button className="nav_make_btn">MAKE AN APPOINMENT</button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

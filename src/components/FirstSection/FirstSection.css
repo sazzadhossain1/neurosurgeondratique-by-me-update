@@ -1,0 +1,34 @@
+.firstSection_grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  text-align: left;
+}
+.firstSection_first_cart {
+  background-color: #0767a7cc;
+  padding: 30px;
+  padding-left: 50px;
+}
+.faLocation {
+  font-size: 40px;
+}
+
+.firstSection_second_cart {
+  background-color: #0767a7e6;
+  padding: 30px;
+  padding-left: 50px;
+}
+.faPhone {
+  font-size: 40px;
+}
+.firstSection_third_cart {
+  background-color: #0767a7;
+  padding: 30px;
+  padding-left: 50px;
+}
+.faClock {
+  font-size: 40px;
+}
+h4 {
+  margin-bottom: 8px;
+}
