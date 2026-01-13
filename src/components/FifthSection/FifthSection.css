@@ -1,0 +1,24 @@
+.fifthSection_parent_div {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../accets/secondSection/cartOne.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.fifthSection_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 65%;
+  margin: auto;
+  padding: 100px;
+}
+
+.fifthSection_icon {
+  font-size: 70px;
+}
+.fifthSection_grid_div div p {
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: 500;
+}
