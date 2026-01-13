@@ -1,0 +1,35 @@
+.thirdSection_parent_div {
+  background-color: rgb(247, 247, 247);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+.thirdSection_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 65%;
+  margin: auto;
+  gap: 30px;
+}
+.thirdSection_common_cart {
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.thirdSection_grid_div div {
+  background-color: white;
+  border-radius: 10px;
+}
+.thirdSection_grid_div img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.thirdSection_grid_div div div {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+}
+.thirdSection_grid_div div div h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
