@@ -22,6 +22,7 @@ const NavigationBar = () => {
               <span>
                 <FontAwesomeIcon icon={faEnvelope} /> kazidmc@gmail.com
               </span>{" "}
+              &nbsp; &nbsp;
               <span>
                 <FontAwesomeIcon icon={faPhone} /> +88-01915449083
               </span>

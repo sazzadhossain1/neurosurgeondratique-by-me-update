@@ -1,0 +1,86 @@
+.footer_parent_div {
+  background-color: #212529;
+  color: white;
+  margin-top: 50px;
+}
+.footer_navigate_to_up_div {
+  background-color: #181818;
+  display: flex;
+  justify-content: right;
+}
+.footer_faArrowUpLong_div {
+  background-color: black;
+  width: 2%;
+  padding: 12px;
+  cursor: pointer;
+  /* margin-right: 200px; */
+}
+.footer_faArrowUpLong {
+  font-size: 25px;
+}
+.footer_grid_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  gap: 50px;
+  text-align: left;
+}
+.footer_logo_div {
+  margin-top: 30px;
+}
+.footer_grid_div a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+}
+.footer_grid_div p {
+  color: gray;
+  font-size: 14px;
+}
+.footer_grid_div small {
+  color: gray;
+}
+.footer_logo {
+  width: 50%;
+}
+.footer_faFacebook {
+  color: #3b5898;
+  font-size: 30px;
+}
+.footer_faYoutube {
+  color: red;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer_faLinkedin {
+  color: #0a66c2;
+  font-size: 30px;
+}
+.footer_copyright_div {
+  padding: 20px;
+}
+.footer_number_div div {
+  margin-bottom: 10px;
+}
+.footer_blank_div {
+  height: 1px;
+  width: 75%;
+  margin: auto;
+  background-color: gray;
+  margin-top: 15px;
+  margin-bottom: -20px;
+}
+.footer_copyright_div p {
+  color: gray;
+  font-size: 14px;
+}
+.footer_copyright_div a {
+  text-decoration: none;
+  color: blue;
+}
+hr {
+  border: 1px solid gray;
+}
