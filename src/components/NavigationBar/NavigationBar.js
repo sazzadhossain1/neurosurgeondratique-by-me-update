@@ -24,7 +24,7 @@ const NavigationBar = () => {
               </span>{" "}
               &nbsp; &nbsp;
               <span>
-                <FontAwesomeIcon icon={faPhone} /> +88-01915449083
+                <FontAwesomeIcon icon={faPhone} /> +88-01327022466
               </span>
             </div>
             <div>

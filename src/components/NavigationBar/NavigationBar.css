@@ -48,7 +48,8 @@
 }
 
 .nav_second_parent_div {
-  background-color: rgb(238, 238, 238);
+  /* background-color: rgb(238, 238, 238); */
+  background-color: white;
 }
 .navigation_loto {
   width: 15%;

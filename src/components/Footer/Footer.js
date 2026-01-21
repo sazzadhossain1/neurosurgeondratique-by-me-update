@@ -100,11 +100,11 @@ const Footer = () => {
           <p>70 W. Madison Street, Ste. 1400 Chicago, IL 60602</p>
           <div>
             <FontAwesomeIcon icon={faPhoneSquare} />{" "}
-            <small> +88-01915449083</small>
+            <small> +88-01327022466</small>
           </div>
           <div>
             <FontAwesomeIcon icon={faPhoneSquare} />{" "}
-            <small> +88-01915449083</small>
+            <small> +88-01327022466</small>
           </div>
           <div>
             <FontAwesomeIcon icon={faEnvelope} />{" "}
