@@ -1,0 +1,79 @@
+.About_Neurosurgeon_title {
+  color: black;
+  margin-top: 20px;
+}
+.DrAtiqulIslam_parent_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  margin: auto;
+  align-items: center;
+  gap: 50px;
+  color: black;
+  margin-top: 30px;
+}
+.doctorPhoto {
+  max-width: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.doctor_details_div {
+  text-align: left;
+}
+
+.doctor_details_div p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+.MoreAboutUs {
+  padding: 10px;
+  background-color: #0db2f0;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 1536px) {
+  .DrAtiqulIslam_parent_div {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .DrAtiqulIslam_parent_div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .About_Neurosurgeon_title {
+    margin-top: 70px;
+  }
+  .DrAtiqulIslam_parent_div {
+    grid-template-columns: 1fr;
+    width: 95%;
+    grid-template-areas:
+      "image"
+      "text";
+  }
+
+  .doctorPhoto {
+    grid-area: image;
+    margin-bottom: 20px;
+  }
+
+  .doctor_details_div {
+    grid-area: text;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .DrAtiqulIslam_parent_div {
+    grid-template-columns: repeat(1, 1fr);
+    width: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .doctorPhoto {
+    max-width: 100%;
+  }
+}

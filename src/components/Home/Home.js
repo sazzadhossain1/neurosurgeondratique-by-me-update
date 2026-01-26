@@ -8,6 +8,7 @@ import ForthSection from "../ForthSection/ForthSection";
 import FifthSection from "../FifthSection/FifthSection";
 import SixSection from "../SixSection/SixSection";
 import HomeVideoGallery from "../HomeVideoGallery/HomeVideoGallery";
+import AboutTheDoctor from "../AboutTheDoctor/AboutTheDoctor";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
 
       {/* This is THIRD section start */}
       <HomeVideoGallery></HomeVideoGallery>
+      <AboutTheDoctor></AboutTheDoctor>
       {/* This is THIRD section end */}
 
       <ForthSection></ForthSection>
