@@ -7,6 +7,7 @@ import ThirdSection from "../ThirdSection/ThirdSection";
 import ForthSection from "../ForthSection/ForthSection";
 import FifthSection from "../FifthSection/FifthSection";
 import SixSection from "../SixSection/SixSection";
+import HomeVideoGallery from "../HomeVideoGallery/HomeVideoGallery";
 
 const Home = () => {
   return (
@@ -14,7 +15,12 @@ const Home = () => {
       <Carousel></Carousel>
       <FirstSection></FirstSection>
       <SecondSection></SecondSection>
-      <ThirdSection></ThirdSection>
+      {/* <ThirdSection></ThirdSection> */}
+
+      {/* This is THIRD section start */}
+      <HomeVideoGallery></HomeVideoGallery>
+      {/* This is THIRD section end */}
+
       <ForthSection></ForthSection>
       <FifthSection></FifthSection>
       <SixSection></SixSection>
