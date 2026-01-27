@@ -23,8 +23,8 @@ const SixSection = () => {
           <img src={galleryPhotoThree} alt="" />
         </div>
       </div>
-      <Link>
-        <button className="six_section_btn">More News</button>
+      <Link to={"/photoGalleryInnerPage"}>
+        <button className="six_section_btn">More More</button>
       </Link>
     </div>
   );

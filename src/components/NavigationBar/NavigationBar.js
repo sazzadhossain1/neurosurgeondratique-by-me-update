@@ -40,7 +40,9 @@ const NavigationBar = () => {
             <img className="navigation_loto" src={logo} alt="" />
             <div className="nav_ul_div">
               <ul>
-                <li>Home</li>
+                <Link to="/home">
+                  <li>Home</li>
+                </Link>
                 <li>About</li>
                 <li>Treatment & Surgery</li>
                 <li>Cases</li>

@@ -5,6 +5,7 @@ import { faHouse } from "@fortawesome/free-regular-svg-icons";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./LayOut/Main";
 import Home from "./components/Home/Home";
+import PhotoGalleryInnerPage from "./components/PhotoGalleryInnerPage/PhotoGalleryInnerPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +20,10 @@ function App() {
         {
           path: "/home",
           element: <Home></Home>,
+        },
+        {
+          path: "/photoGalleryInnerPage",
+          element: <PhotoGalleryInnerPage></PhotoGalleryInnerPage>,
         },
       ],
     },
