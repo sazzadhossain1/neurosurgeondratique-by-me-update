@@ -1,38 +1,26 @@
 import React from "react";
 import "./SixSection.css";
 import cartPhoto from "../../accets/sixSection/cartPhoto.jpg";
+
+import galleryPhotoOne from "../../accets/sixSection/photoGallery/galleryPhotoOne.jpg";
+import galleryPhotoTwo from "../../accets/sixSection/photoGallery/galleryPhotoTwo.jpg";
+import galleryPhotoThree from "../../accets/sixSection/photoGallery/galleryPhotoThree.jpg";
 import { Link } from "react-router-dom";
 
 const SixSection = () => {
   return (
-    <div>
-      <h1>Latest from our blog</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum
-        augue quis augue ornare, eget faucibus felis pharetra. Proin condimentum
-        et leo quis fringilla.
-      </p>
+    <div className="six_section_parent_div">
+      <h1>Photo Gallery</h1>
+
       <div className="six_section_grid_div">
-        <div className="six_section_cart_div">
-          <img src={cartPhoto} alt="" />
-          <div className="six_section_cart_text_div">
-            <small>Medical care</small>
-            <h3>Good Health Habits Can Help Stop Germs</h3>
-          </div>
+        <div>
+          <img src={galleryPhotoOne} alt="" />
         </div>
-        <div className="six_section_cart_div">
-          <img src={cartPhoto} alt="" />
-          <div className="six_section_cart_text_div">
-            <small>Medical care</small>
-            <h3>Good Health Habits Can Help Stop Germs</h3>
-          </div>
+        <div>
+          <img src={galleryPhotoTwo} alt="" />
         </div>
-        <div className="six_section_cart_div">
-          <img src={cartPhoto} alt="" />
-          <div className="six_section_cart_text_div">
-            <small>Medical care</small>
-            <h3>Good Health Habits Can Help Stop Germs</h3>
-          </div>
+        <div>
+          <img src={galleryPhotoThree} alt="" />
         </div>
       </div>
       <Link>
