@@ -22,6 +22,20 @@
   height: 315px;
 }
 
+.HomeVideoGallery_seeMoreBtn {
+  margin-top: 30px;
+  border: 1px solid #0767a7;
+  padding: 10px;
+  width: 10%;
+  border-radius: 20px;
+  color: #0767a7;
+  font-size: 15px;
+  cursor: pointer;
+}
+.HomeVideoGallery_seeMoreBtn:hover {
+  background-color: #0767a7;
+  color: white;
+}
 @media screen and (max-width: 1536px) {
   .home_video_gallery_grid_div {
     width: 90%;

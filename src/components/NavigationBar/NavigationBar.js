@@ -41,12 +41,10 @@ const NavigationBar = () => {
             <div className="nav_ul_div">
               <ul>
                 <li>Home</li>
-                <li>Pages</li>
-                <li>About Us</li>
-                <li>Our Experts</li>
-                <li>Service</li>
-                <li>Blog</li>
-                <li>Contact Us</li>
+                <li>About</li>
+                <li>Treatment & Surgery</li>
+                <li>Cases</li>
+                <li>Photos</li>
               </ul>
             </div>
             <div>

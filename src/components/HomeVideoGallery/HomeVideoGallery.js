@@ -130,9 +130,9 @@ const HomeVideoGallery = () => {
           ></iframe>
         </div>
       </div>
-      {/* <Link to="/videoGallery">
+      <Link to="https://www.youtube.com/@neurosurgeondratique" target="_blank">
         <button className="HomeVideoGallery_seeMoreBtn">See More</button>
-      </Link> */}
+      </Link>
     </div>
   );
 };
