@@ -21,7 +21,7 @@ const HomeVideoGallery = () => {
   return (
     <div className="home_videoGallery_parent_div">
       {/* <h1 className="home_videoGallery_title">Video Gallery</h1> */}
-      <h1 className="home_videoGallery_title">Patient Feedback</h1>
+      <h1 className="home_videoGallery_title">Cases</h1>
 
       <div className="home_video_gallery_grid_div">
         <div>

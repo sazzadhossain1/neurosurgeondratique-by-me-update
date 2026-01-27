@@ -8,6 +8,14 @@
 .forthSection_text_div {
   text-align: left;
 }
+.forthSection_title {
+  font-size: 2rem;
+}
+.forthSectionPhoto {
+  width: 90%;
+  margin-top: 30px;
+}
+
 /* FORM STYLE */
 .appointment-form-container {
   max-width: 450px;

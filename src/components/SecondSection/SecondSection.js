@@ -21,7 +21,7 @@ import StrokeSurgery from "../../accets/secondSection/New folder/Stroke Surgery.
 const SecondSection = () => {
   return (
     <div className="second_section_parent_div">
-      <h2>Treatment & Surgery</h2>
+      <h1 className="second_section_title">Treatment & Surgery</h1>
       <p className="secondSection_p">
         {/* Treatment and surgery are vital medical approaches that help diagnose,
         manage, and cure diseases, improving patient health through medications,

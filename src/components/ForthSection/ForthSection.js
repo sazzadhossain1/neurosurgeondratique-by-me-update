@@ -26,18 +26,17 @@ const ForthSection = () => {
   return (
     <div className="forthSection_grid_div">
       <div className="forthSection_text_div">
-        <h2>Get an Appointment Now!</h2>
+        <h1 className="forthSection_title">Get an Appointment Now!</h1>
         <p>
-          Schedule your appointment with ease and connect with our expert
-          medical team at Doctoral. We’re here to provide trusted, personalized
-          care when you need it most. Book now and take the first step toward
-          better health, comfort, and peace of mind.
+          Schedule your appointment with ease. We’re here to provide trusted,
+          personalized care when you need it most. Book now and take the first
+          step toward better health, comfort, and peace of mind.
         </p>
-        <img src={forthSectionPhoto} alt="" />
+        <img className="forthSectionPhoto" src={forthSectionPhoto} alt="" />
       </div>
       <div>
         <div className="appointment-form-container">
-          <h2>Get an Appointment Now!</h2>
+          <h2>Please Fill Out This Form</h2>
 
           <form className="appointment-form" onSubmit={handleSubmit}>
             <input
@@ -73,7 +72,7 @@ const ForthSection = () => {
               onChange={handleChange}
             ></textarea>
 
-            <button type="submit">Book Appointment</button>
+            <button type="submit">SEND</button>
           </form>
         </div>
       </div>
